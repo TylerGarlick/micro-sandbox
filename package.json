@@ -6,7 +6,8 @@
     "dev": "micro-dev",
     "start": "micro",
     "lint": "xo",
-    "test": "npm run lint && ava"
+    "test": "npm run lint && ava",
+    "deploy": "now ."
   },
   "env": {
     "NODE_ENV": "production"
